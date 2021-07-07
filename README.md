@@ -1,1 +1,7 @@
 # GamaAcademy
+# Exercícios
+* MÓDULO 01 OK
+* MÓDULO 02 OK
+* MÓDULO 03 OK
+* EXTRA - ESTRUTURA DE DADOS OK
+* EXTRA - BOAS PRÁTICAS OK
