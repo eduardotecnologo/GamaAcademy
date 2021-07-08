@@ -1,24 +1,23 @@
-import HomeSectionOne from '../../components/sections/HomeSectionOne.js';
-import HomeSectionTwo from '../../components/sections/HomeSectionTwo.js';
-import FloatImage from '../../components/float/FloatImage.js';
-import Index from '../../components/footer/index.js';
+import homeSectionOne from '../../components/sections/homeSectionOne';
+import homeSectionTwo from '../../components/sections/homeSectionTwo';
+import floatImage from '../../components/float/floatImage';
 
 let Home = {
   is_private: false,
 
   render: async () => {
-      let view = `
+    let view = `
           <div>
-            ${HomeSectionOne}
-            ${HomeSectionTwo}
-            ${FloatImage}
-            ${Index}
+            ${homeSectionOne}
+            ${homeSectionTwo}
+            ${floatImage}
           </div>
       `;
-      return view
+
+    return view
   },
 
-  after_render: async () => {}
+  after_render: async () => { }
 }
 
 export default Home;
