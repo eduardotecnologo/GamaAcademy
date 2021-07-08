@@ -1,7 +1,7 @@
 import HomeSectionOne from '../../components/sections/HomeSectionOne.js';
 import HomeSectionTwo from '../../components/sections/HomeSectionTwo.js';
 import FloatImage from '../../components/float/FloatImage.js';
-import Index from '../../components/footer/Index.js';
+import Index from '../../components/footer/index.js';
 
 let Home = {
   is_private: false,

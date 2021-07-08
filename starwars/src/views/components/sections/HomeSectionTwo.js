@@ -1,5 +1,6 @@
 import BackgroundTwo from '../../../assets/images/background/bg2.jpg';
 import Vader from '../../../assets/images/elements/vader.png';
+import footer from '../footer';
 
 let TextContent = `
 Lucas ipsum dolor sit amet luke sidious jango cade mace palpatine jawa wookiee wookiee kashyyyk.
@@ -16,14 +17,20 @@ Yoda c-3p0 dantooine antilles secura organa calamari.
 
 let HomeSectionTwo = `
   <section id="section-two" class="section background--two" style="background-image: url(${BackgroundTwo})">
-    <div>
-      <img src="${Vader}" alt="Vader" width="300px">
+    <div class="container block-section">
+        <div class="block-section--two">
+            <img src="${Vader}" alt="Vader">
+            <div "text-block--two">
+                <p>
+                    ${TextContent}
+                </p>
+            </div>
+        </div>
+        <div class="block-section">
+            ${footer}
+        </div>
     </div>
-
-    <div>
-      <p>${TextContent}</p>
-    </div>
-  </section>
+</section>
 `
 
 export default HomeSectionTwo;
