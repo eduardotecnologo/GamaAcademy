@@ -1,0 +1,17 @@
+{
+  "user": [
+    {
+      "name": "Eduardo Alexandre",
+      "email": "edu@mail.com",
+      "id": 6
+    }
+  ],
+  "products":[
+    {
+      "id": 1,
+      "description":"Computador",
+      "quantity":10,
+      "price":300.90
+    }
+  ]
+}
