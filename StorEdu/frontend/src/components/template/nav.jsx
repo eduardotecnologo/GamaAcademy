@@ -12,7 +12,7 @@ export default props =>
             <Link to="/users">
                 <i className="fa fa-user"></i> Usuários
             </Link>
-            <Link to="/client">
+            <Link to="/clients">
                 <i className="fa fa-users"></i> Clientes
             </Link>
             <Link to="/products">

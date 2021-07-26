@@ -143,12 +143,12 @@ export default class ProductCrud extends Component{
           <td>{product.id}</td>
           <td>{product.description}</td>
           <td>{product.quantity}</td>
-          <td>{product.price}</td>
+          <td>R$ {parseFloat(product.price).toFixed(2).replace('.', ',')}</td>
           <td>{product.brand}</td>
           <td>
             <button
               className="btn btn-warning" onClick={() => this.load(product)}>
-              <i className="fa fa-product-hunt"></i>
+              <i className="fa fa-pencil"></i>
             </button>
             <button
               className="btn btn-danger ml-2"

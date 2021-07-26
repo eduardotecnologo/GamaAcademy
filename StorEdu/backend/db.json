@@ -25,9 +25,17 @@
       "description": "Notebook",
       "quantity": 56,
       "price": 3000,
-      "marca": "",
       "brand": "Acer",
       "id": 3
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "Smarthphone",
+      "contact": "(55)9999-9999",
+      "country": "USA"
     }
   ]
 }
