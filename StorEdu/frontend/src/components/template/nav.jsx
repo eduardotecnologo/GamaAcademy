@@ -15,7 +15,7 @@ export default props =>
             <Link to="/client">
                 <i className="fa fa-users"></i> Clientes
             </Link>
-            <Link to="/product">
+            <Link to="/products">
                 <i className="fa fa-product-hunt"></i> Produtos
             </Link>
         </nav>

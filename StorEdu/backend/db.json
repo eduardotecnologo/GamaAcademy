@@ -11,13 +11,23 @@
       "id": 1,
       "description": "Computador",
       "quantity": 10,
-      "price": 300.9
+      "price": 300.9,
+      "brand": "Lenovo"
     },
     {
       "id": 2,
       "description": "Celular",
       "quantity": 10,
-      "price": 1000.9
+      "price": 1300.9,
+      "brand": "iPhone"
+    },
+    {
+      "description": "Notebook",
+      "quantity": 56,
+      "price": 3000,
+      "marca": "",
+      "brand": "Acer",
+      "id": 3
     }
   ]
 }
