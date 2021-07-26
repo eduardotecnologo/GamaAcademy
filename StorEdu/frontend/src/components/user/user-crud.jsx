@@ -1,5 +1,5 @@
-import React from 'react'
-import Main from '../template/main'
+import React from 'react';
+import Main from '../template/main';
 
 import axios from 'axios'
 
@@ -9,7 +9,7 @@ const headerProps = {
     subtitle: 'Cadastro de usuário'
 }
 
-const baseUrl = 'http://localhost:8000/api/user'
+const baseUrl = 'http://localhost:3001/user'
 const initState= {
     user: { name:'', email:''},
     list: []

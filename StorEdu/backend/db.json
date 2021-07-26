@@ -1,17 +1,23 @@
 {
   "user": [
     {
-      "name": "Eduardo Alexandre",
-      "email": "edu@mail.com",
-      "id": 6
+      "name": "Suellen Nascimento",
+      "email": "suellen@gmail.com",
+      "id": 7
     }
   ],
-  "products":[
+  "products": [
     {
       "id": 1,
-      "description":"Computador",
-      "quantity":10,
-      "price":300.90
+      "description": "Computador",
+      "quantity": 10,
+      "price": 300.9
+    },
+    {
+      "id": 2,
+      "description": "Celular",
+      "quantity": 10,
+      "price": 1000.9
     }
   ]
 }
